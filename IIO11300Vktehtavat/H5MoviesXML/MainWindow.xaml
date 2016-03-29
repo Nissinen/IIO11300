@@ -1,0 +1,23 @@
+﻿<Window x:Class="H5MoviesXML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:H5MoviesXML"
+        mc:Ignorable="d"
+        Title="My movie Gallery" Height="350" Width="525">
+    <Grid>
+        <Grid.Resources>
+            <XmlDataProvider x:Key="MovieData" Source="D:\\Movies.xml" XPath="/Movies/Movie" />
+        </Grid.Resources>
+        <DataGrid x:Name="dgMovies" DataContext="{StaticResource MovieData}" ItemsSource="{Binding XPath=/Movies/Movie}"
+                  AutoGenerateColumns="False" FontFamily="Showcard Gothic" AlternatingRowBackground="#FF54EC54">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Elokuva" Binding="{Binding XPath=@Name}" />
+                <DataGridTextColumn Header="Ohjaaja" Binding="{Binding XPath=@Director}" />
+                <DataGridTextColumn Header="Maa" Binding="{Binding XPath=@Country}" />
+                <DataGridCheckBoxColumn Header="Hyvä" Binding="{Binding XPath=@Checked}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

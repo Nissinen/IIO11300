@@ -1,0 +1,22 @@
+﻿<Window x:Class="Tehtava7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Tarkistettava salasana:" />
+            <PasswordBox Name="pwSalasana" PasswordChanged="pwSalasana_PasswordChanged" />
+            <TextBlock Name="txtMerkit" Text="Merkkejä: 0" />
+            <TextBlock Name="txtIsotKirjaimet" Text="Isoja kirjaimia: 0" />
+            <TextBlock Name="txtPienetKirjaimet" Text="Pieniä kirjaimia: 0" />
+            <TextBlock Name="txtNumerot" Text="Numeroita: 0" />
+            <TextBlock Name="txtErikoismerkit" Text="Erikoismerkkejä: 0" />
+            <TextBlock Background="Gray" Text="Anna Salasana" Name="txtVahvuus" FontSize="30" />
+
+        </StackPanel>
+    </Grid>
+</Window>

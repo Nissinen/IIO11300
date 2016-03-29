@@ -1,0 +1,62 @@
+﻿<Window x:Class="DataBindingX3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBindingX3"
+        xmlns:props="clr-namespace:DataBindingX3.Properties"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="600" FontSize="12">
+    <Window.Resources>
+        <sys:String x:Key="myApp">Ollin Supersovellus v1.0</sys:String>
+        <x:Array x:Key="myCourses" Type="sys:String">
+            <sys:String>IIO11100 Ohjelmistosuunnittelu</sys:String>
+            <sys:String>IIO11300 Windows-ohjelmointi</sys:String>
+            <sys:String>IIZP010 Järjestelmäprojekti</sys:String>
+        </x:Array>
+    </Window.Resources>
+    <Grid x:Name="myGrid">
+        <StackPanel Orientation="Horizontal">
+            <!-- Yksinkertainen bindaus toiseen käyttöliittymän kontrolliin-->
+            <StackPanel Orientation="Vertical" Background="Green" Width="200">
+                <TextBox x:Name="txtTesti" />
+                <TextBlock x:Name="txbTesti1" Text="{Binding ElementName=txtTesti, Path=Text}" />
+                <TextBlock x:Name="txbTesti2" Text="{Binding ElementName=txtTesti, Path=Text.Length}" />
+                <TextBlock TextWrapping="Wrap">Alla oleva teksti tulee app.configista</TextBlock>
+                <TextBlock Text="{Binding Source={x:Static props:Settings.Default}, Path=UserName}" />
+                <TextBlock>Sama koodilla tehtynä:</TextBlock>
+                <Button x:Name="btnSetUser" Content="Näytä kättäjä" Click="btnSetUser_Click" />
+                <TextBlock x:Name="txtUsername" Text="[tähän koodi iskee käyttäjänimen]" />
+            </StackPanel>
+            <!-- Comboboxien listanjäsenet staattisista resursseista-->
+            <StackPanel Orientation="Vertical" Background="{Binding ElementName=cbColors, Path=SelectedItem.Content, Mode=OneWay}" Width="200">
+                <TextBlock>Comboboxi asettaa stackpaneelin värin</TextBlock>
+                <ComboBox x:Name="cbColors">
+                    <ComboBoxItem Content="Azure"/>
+                    <ComboBoxItem Content="LightBlue"/>
+                    <ComboBoxItem Content="Green"/>
+                    <ComboBoxItem Content="Blue"/>
+                </ComboBox>
+                <TextBlock> Sidotaan comboboxi staattuseen resurssiin</TextBlock>
+                <TextBlock Text="{Binding Source={StaticResource myApp}}" />
+                <ComboBox x:Name="cbCourses" ItemsSource="{Binding Source={StaticResource myCourses}}" />
+                <TextBlock Text="{Binding ElementName=cbCourses, Path=SelectedItem }" />
+                <TextBlock>Comboboxi saa arvonsa koodista</TextBlock>
+                <ComboBox x:Name="cbCourses2" />
+            </StackPanel>
+            <!-- Sidotaan stackpaneliin datacontextiksi oliokokoelma-->
+            <StackPanel Orientation="Vertical" Background="Purple" Width="200">
+                <TextBlock> Bindaus oliokokoelmaan</TextBlock>
+                <Button x:Name="btnBind" Content="Sido oliokokoelmaan" Click="btnBind_Click" ></Button>
+                <TextBlock x:Name="txbNimi" Text="{Binding}" />
+                <!-- seuraavat textboxit sidotaan tiettyihin propertyihin-->
+                <TextBox x:Name="txtName" Text="{Binding Path=Name}" />
+                <TextBox x:Name="txtCity" Text="{Binding Path=City}" />
+                <Button x:Name="btnForward" Content="Forward" Click="btnForward_Click" />
+                <Button x:Name="btnBackward" Content="Backward" Click="btnBackward_Click" />
+                <Button Content="Jotain" Click="Button_Click"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

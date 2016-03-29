@@ -1,0 +1,30 @@
+﻿<Window x:Class="Tehtava8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="400">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <ScrollViewer>
+                  <StackPanel Orientation="Vertical">
+                        <Button Click="Hae_Click">Hae Asiakkaat</Button>
+                     <DataGrid x:Name="myGrid" ItemsSource="{Binding}" GridLinesVisibility="None" SelectionChanged="myGrid_SelectionChanged"/>
+                  </StackPanel>
+            </ScrollViewer>
+            <StackPanel>
+                <TextBlock Text="Etunimi" />
+                <TextBox Name="etunimiBox" Text="" Background="AliceBlue" />
+                <TextBlock Text="Sukunimi" />
+                <TextBox Name="sukunimiBox" Text="" Background="AliceBlue" />
+                <TextBlock Text="Osoite" />
+                <TextBox Name="osoiteBox" Text="" Background="AliceBlue" />
+                <TextBlock Text="Kaupunki" />
+                <TextBox Name="cityBox" Text="" Background="AliceBlue" />
+            </StackPanel>
+            <DataGrid x:Name="tempDG2" ItemsSource="{Binding}" GridLinesVisibility="None" SelectionChanged="myGrid_SelectionChanged" Visibility="Hidden"/>
+        </StackPanel>
+    </Grid>
+</Window>

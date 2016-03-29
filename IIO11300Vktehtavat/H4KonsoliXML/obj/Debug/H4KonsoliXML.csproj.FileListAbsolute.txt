@@ -1,0 +1,5 @@
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4KonsoliXML\bin\Debug\Tyontekijat.exe.config
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4KonsoliXML\bin\Debug\Tyontekijat.exe
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4KonsoliXML\bin\Debug\Tyontekijat.pdb
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4KonsoliXML\obj\Debug\Tyontekijat.exe
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4KonsoliXML\obj\Debug\Tyontekijat.pdb

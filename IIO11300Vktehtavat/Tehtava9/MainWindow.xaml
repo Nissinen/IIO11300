@@ -1,0 +1,38 @@
+﻿<Window x:Class="Tehtava9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="625">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            
+            <StackPanel Name="spList">
+                <Button Name="btnGetData" Content="Hae asiakkaat" Click="btnGetData_Click" />
+                <Button Name="btnCreateNew" Content="Luo uusi asiakas" Click="btnCreateNew_Click" />
+                <StackPanel Orientation="Horizontal" Name="spCustomer" Visibility="Collapsed">
+                    <TextBlock>Etunimi</TextBlock>
+                    <TextBox Name="etunimi" Width="60" Text="" />
+                    <TextBlock>Sukunimi</TextBlock>
+                    <TextBox Name="sukunimi" Width="60" Text="" />
+                    <TextBlock>Osoite</TextBlock>
+                    <TextBox Name="osoite" Width="60" Text="" />
+                    <TextBlock>Kaupunki</TextBlock>
+                    <TextBox Name="kaupunki" Width="60" Text="" />
+                    <Button Name="btnAddUser" Content="Lähetä" Click="btAddUser_Click" />
+                </StackPanel>
+                <Button Name="btnDelete" Content="Poista asiakas" Click="btnDelete_Click" />
+                <Button Name="btnSave" Content="Tallenna muutokset" Click="btnSave_Click" />
+                <DataGrid Name="lbCustomers" ItemsSource="{Binding}" Height="200" ScrollViewer.VerticalScrollBarVisibility="Visible" SelectionChanged="lbCustomers_SelectionChanged" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Name="selectedCustomer">
+                <TextBlock Name="indexNumber" Text="..." />
+                <TextBlock Text="{Binding Path=Firstname}" />
+                <TextBlock Text=" " />
+                <TextBlock Name="selectedLastName"  Text="{Binding Path=Lastname}" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

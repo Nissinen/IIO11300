@@ -1,0 +1,41 @@
+﻿<Window x:Class="BooksORM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BooksORM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel Orientation="Vertical" Background="Gray">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    <Button Margin="5,5,5,5" Content="Hae testikirjat" Click="HaeKirjat_Click"/>
+                    <Button Margin="5,5,5,5" Content="Hae kirjat SQL Server" Click="HaeKirjatSQL_Click"/>
+                    <ComboBox Margin="5,5,5,5"></ComboBox>
+                </StackPanel>
+                <StackPanel Background="Brown" Orientation="Horizontal" Name="spBook">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Margin="0,2,0,0" Text="Tuote: " />
+                        <TextBlock Margin="0,2,0,0" Text="Nimi: " />
+                        <TextBlock Margin="0,2,0,0" Text="Kirjailija: " />
+                        <TextBlock Margin="0,2,0,0" Text="Maa: " />
+                        <TextBlock Margin="0,2,0,0" Text="Vuosi: " />
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Name="textTuote" Width="200" Text="{Binding Mode=OneWay}" />
+                        <TextBox Name="textNimi" Text="{Binding Path=Name}" Width="200" />
+                        <TextBox Name="textKirjailija" Text="{Binding Path=Author}" Width="200" />
+                        <TextBox Name="textMaa" Text="{Binding Path=Country}" Width="200" />
+                        <TextBox Name="textVuosi" Text="{Binding Path=Year}" HorizontalAlignment="Left" Width="60"  />
+                        <Button Content="Tallenna" Click="Tallenna_Click" />
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <DockPanel>
+                <DataGrid ItemsSource="{Binding}" DockPanel.Dock="Top" Height="180" ScrollViewer.VerticalScrollBarVisibility="Auto" Name="myDataGrid" SelectionChanged="myDataGrid_SelectionChanged" />
+                <StatusBar DockPanel.Dock="Bottom">Tähän ilmoitukset</StatusBar>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H7ADOConsoleDemo\bin\Debug\H7ADOConsoleDemo.exe.config
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H7ADOConsoleDemo\bin\Debug\H7ADOConsoleDemo.exe
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H7ADOConsoleDemo\bin\Debug\H7ADOConsoleDemo.pdb
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H7ADOConsoleDemo\obj\Debug\H7ADOConsoleDemo.exe
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H7ADOConsoleDemo\obj\Debug\H7ADOConsoleDemo.pdb
