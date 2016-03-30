@@ -12,3 +12,17 @@ C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.exe
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.pdb
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.csprojResolveAssemblyReference.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\bin\Debug\H3MittausData.exe.config
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\bin\Debug\H3MittausData.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\bin\Debug\H3MittausData.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.csprojResolveAssemblyReference.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\MainWindow.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\App.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData_MarkupCompile.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData_MarkupCompile.lref
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\MainWindow.baml
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.g.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.Properties.Resources.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.csproj.GenerateResource.Cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H3MittausData\obj\Debug\H3MittausData.pdb

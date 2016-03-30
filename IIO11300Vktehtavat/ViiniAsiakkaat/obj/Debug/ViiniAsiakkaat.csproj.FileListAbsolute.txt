@@ -12,3 +12,17 @@ C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.csproj.GenerateResource.Cache
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.exe
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\bin\Debug\ViiniAsiakkaat.exe.config
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\bin\Debug\ViiniAsiakkaat.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\bin\Debug\ViiniAsiakkaat.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.csprojResolveAssemblyReference.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\MainWindow.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\App.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat_MarkupCompile.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat_MarkupCompile.lref
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\MainWindow.baml
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.g.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.Properties.Resources.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.csproj.GenerateResource.Cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\ViiniAsiakkaat\obj\Debug\ViiniAsiakkaat.pdb

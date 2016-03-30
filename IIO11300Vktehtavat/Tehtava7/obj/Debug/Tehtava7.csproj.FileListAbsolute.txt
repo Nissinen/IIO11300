@@ -12,3 +12,17 @@ C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtav
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.csproj.GenerateResource.Cache
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.exe
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\bin\Debug\Tehtava7.exe.config
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\bin\Debug\Tehtava7.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\bin\Debug\Tehtava7.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.csprojResolveAssemblyReference.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\MainWindow.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\App.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7_MarkupCompile.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7_MarkupCompile.lref
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\MainWindow.baml
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.g.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.Properties.Resources.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.csproj.GenerateResource.Cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava7\obj\Debug\Tehtava7.pdb

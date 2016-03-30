@@ -11,3 +11,17 @@ C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfX
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.csproj.GenerateResource.Cache
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.exe
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\bin\Debug\H4WpfXML.exe.config
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\bin\Debug\H4WpfXML.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\bin\Debug\H4WpfXML.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.csprojResolveAssemblyReference.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\MainWindow.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\App.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML_MarkupCompile.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML_MarkupCompile.lref
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\MainWindow.baml
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.g.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.Properties.Resources.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.csproj.GenerateResource.Cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\H4WpfXML\obj\Debug\H4WpfXML.pdb

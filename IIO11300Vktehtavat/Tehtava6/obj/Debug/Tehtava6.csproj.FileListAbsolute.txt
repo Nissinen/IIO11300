@@ -11,3 +11,16 @@ C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtav
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6.csproj.GenerateResource.Cache
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6.exe
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\bin\Debug\Tehtava6.exe.config
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\bin\Debug\Tehtava6.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\bin\Debug\Tehtava6.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\MainWindow.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\App.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6_MarkupCompile.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6_MarkupCompile.lref
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\MainWindow.baml
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6.g.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6.Properties.Resources.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6.csproj.GenerateResource.Cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava6\obj\Debug\Tehtava6.pdb

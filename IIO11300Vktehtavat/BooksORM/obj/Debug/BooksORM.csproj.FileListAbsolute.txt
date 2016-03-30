@@ -12,3 +12,17 @@ C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksO
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.csproj.GenerateResource.Cache
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.exe
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\bin\Debug\BooksORM.exe.config
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\bin\Debug\BooksORM.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\bin\Debug\BooksORM.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.csprojResolveAssemblyReference.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\MainWindow.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\App.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM_MarkupCompile.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM_MarkupCompile.lref
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\MainWindow.baml
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.g.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.Properties.Resources.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\BooksORM\obj\Debug\BooksORM.csproj.GenerateResource.Cache

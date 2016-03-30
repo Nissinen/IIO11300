@@ -12,3 +12,17 @@ C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debu
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava.csproj.GenerateResource.Cache
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava.exe
 C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\bin\Debug\SM-Liiga-tehtava.exe.config
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\bin\Debug\SM-Liiga-tehtava.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\bin\Debug\SM-Liiga-tehtava.pdb
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava.csprojResolveAssemblyReference.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\MainWindow.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\App.g.cs
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava_MarkupCompile.cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava_MarkupCompile.lref
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\MainWindow.baml
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava.g.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM_Liiga_tehtava.Properties.Resources.resources
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava.csproj.GenerateResource.Cache
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava.exe
+Z:\Repos\IIO11300\IIO11300Vktehtavat\SM-Liiga-tehtava\obj\Debug\SM-Liiga-tehtava.pdb
