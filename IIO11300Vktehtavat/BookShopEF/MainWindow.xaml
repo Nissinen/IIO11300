@@ -31,8 +31,8 @@
                         <TextBox Name="txtMaa" Text="{Binding Path=country}" FontFamily="Tw Cen MT Condensed Extra Bold" Margin="1"></TextBox>
                         <TextBox Name="txtVuosi" Text="{Binding Path=year}" FontFamily="Tw Cen MT Condensed Extra Bold" MinWidth="40" MaxWidth="40" HorizontalAlignment="Left" Margin="1"></TextBox>
                         <Button x:Name="btnTallenna" Content="Tallenna" Click="btnTallenna_Click" />
-                        <Button x:Name="btnUusi" Content="Uusi" />
-                        <Button x:Name="btnPoista" Content="Poista"/>
+                        <Button x:Name="btnUusi" Content="Uusi" Click="btnUusi_Click" />
+                        <Button x:Name="btnPoista" Content="Poista" Click="btnPoista_Click"/>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Name="spCustomer" Background="Cyan" MinWidth="200" Orientation="Horizontal">
