@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ViiniAsiakkaat.Properties {
+namespace viiniTesti.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,11 +26,10 @@ namespace ViiniAsiakkaat.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data source = eight.labranet.jamk.fi; initial catalog = Viini; user = koodari; pa" +
-            "ssword = koodari13")]
-        public string Tietokanta {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data source = eight.labranet.jamk.fi; initial catalog = Viini; user = ")]
+        public string conffi {
             get {
-                return ((string)(this["Tietokanta"]));
+                return ((string)(this["conffi"]));
             }
         }
     }
