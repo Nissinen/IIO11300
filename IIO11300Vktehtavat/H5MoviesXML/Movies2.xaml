@@ -34,7 +34,7 @@
                 <TextBox x:Name="txtDirector" Text="{Binding XPath=@Director}" Style="{StaticResource myStyle}" />
                 <TextBox x:Name="txtCountry" Text="{Binding XPath=@Country}" Style="{StaticResource myStyle}" />
                 <TextBlock Text="Katsottu" />
-                <CheckBox IsChecked="{Binding XPath=@Checked}" />
+                <CheckBox x:Name="chkChecked" IsChecked="{Binding XPath=@Checked}" />
                 <Button x:Name="btnSave" Content="Tallenna muutokset" FontSize="16" Click="btnSave_Click" />
                 <Button x:Name="btnAddNew" Content="Lisää elokuva" FontSize="16" Click="btnAddNew_Click" />
                 <Button x:Name="btnDelete" Content="Poista elokuva" FontSize="16" Click="btnDelete_Click" />

@@ -24,3 +24,4 @@ Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava1\obj\Debug\Tehtava1.Properties.Reso
 Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava1\obj\Debug\Tehtava1.csproj.GenerateResource.Cache
 Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava1\obj\Debug\Tehtava1.exe
 Z:\Repos\IIO11300\IIO11300Vktehtavat\Tehtava1\obj\Debug\Tehtava1.pdb
+C:\Users\Olli\Source\Repos\IIO11300\IIO11300Vktehtavat\Tehtava1\obj\Debug\Tehtava1.csprojResolveAssemblyReference.cache

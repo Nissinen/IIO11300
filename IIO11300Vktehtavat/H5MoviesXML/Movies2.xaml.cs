@@ -56,6 +56,7 @@ namespace H5MoviesXML
                 XmlNode root = doc.SelectSingleNode("/Movies");
                 //luodaan uusi node
                 XmlNode newMovie = doc.CreateElement("Movie");
+                //lisätään nodella tarvittavat neljä attribuuttia
                 XmlAttribute attr = doc.CreateAttribute("Name");
                 attr.Value = txtName.Text;
                 newMovie.Attributes.Append(attr);
@@ -65,6 +66,9 @@ namespace H5MoviesXML
                 XmlAttribute attr3 = doc.CreateAttribute("Country");
                 attr3.Value = txtCountry.Text;
                 newMovie.Attributes.Append(attr3);
+                XmlAttribute attr4 = doc.CreateAttribute("Checked");
+                attr4.Value = chkChecked.IsChecked.ToString();
+                newMovie.Attributes.Append(attr4);
                 //lisää noodin juurielementtiin
                 root.AppendChild(newMovie);
                 //tallennetaan filuun
@@ -77,6 +81,33 @@ namespace H5MoviesXML
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
             //Poistetaaan XmlDocumentista elementti
+            try
+            {
+                string filu = xdpMovies.Source.LocalPath;
+                XmlDocument doc = xdpMovies.Document;
+                XmlNode root = doc.SelectSingleNode("/Movies");
+                XmlNode poistettava = null;
+                //haetaan XPathilla poistettava node
+                var item = doc.SelectSingleNode(string.Format("/Movies/Movie[@Name='{0}']", txtName.Text));
+                if ((item != null) && (MessageBox.Show(
+                  "Poistetaanko elokuva " + txtName.Text, "Esan ElokuvaGalleria",
+                  MessageBoxButton.YesNo) == MessageBoxResult.Yes))
+                {
+                    poistettava = item;
+                }
+                if (poistettava != null)
+                {
+                    //poistetaan noodi juuresta
+                    root.RemoveChild(poistettava);
+                    xdpMovies.Document.Save(filu);
+                    //listboxin osoitin
+                    lbMovies.SelectedIndex = -1;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
